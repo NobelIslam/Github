@@ -3,7 +3,7 @@
 client_id = "b4c1caee0700c949615edb27cbf506df"
 name = "chatbot"
 handle = "chatbot-135"
-application_url = "https://mortgage-yea-personalized-cakes.trycloudflare.com"
+application_url = "https://shopify-chatbot-app.onrender.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_produc.ts"
 
 [auth]
 redirect_urls = [
-  "https://mortgage-yea-personalized-cakes.trycloudflare.com/auth/callback",
-  "https://mortgage-yea-personalized-cakes.trycloudflare.com/auth/shopify/callback",
-  "https://mortgage-yea-personalized-cakes.trycloudflare.com/api/auth/callback"
+    "https://shopify-chatbot-app.onrender.com/auth/callback",
+    "https://shopify-chatbot-app.onrender.com/auth/shopify/callback",
+    "https://shopify-chatbot-app.onrender.com/api/auth/callback"
 ]
 
 [webhooks]
